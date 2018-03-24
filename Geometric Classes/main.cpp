@@ -240,7 +240,7 @@ TEST_CASE("Intersect broken line with circle") {
 
   vector<Point> expected_points(3);
   expected_points[0].x = 2.0;  expected_points[0].y = 0.0;
-  expected_points[1].x = 2.0; expected_points[1].y = 2.0;
+  expected_points[1].x = 2.0; expected_points[1].y = 4.0;
   expected_points[2].x = 4.0;  expected_points[2].y = 2.0;
 
   vector<Point> result = circle.intersect(broken_line);

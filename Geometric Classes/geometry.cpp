@@ -86,7 +86,7 @@ vector<Point> Line::intersect(Circle& circle) {
       v.x = q.x + B * mult + o.x;
       w.x = q.x - B * mult + o.x;
       v.y = q.y - A * mult + o.y;
-      w.y = q.y + B * mult + o.y;
+      w.y = q.y + A * mult + o.y;
       result.push_back(v);
       result.push_back(w);
     }
